@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/playlist.o
+release/spectrumwidget.o
+release/tprocess.o
+release/qrc_rec.o
+release/moc_mainwindow.o
+release/moc_playlist.o
+release/moc_spectrumwidget.o
+release/moc_tprocess.o

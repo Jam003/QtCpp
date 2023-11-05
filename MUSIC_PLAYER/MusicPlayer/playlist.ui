@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlayList</class>
+ <widget class="QWidget" name="PlayList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>166</width>
+    <height>318</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>23</y>
+     <width>160</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actAdd">
+   <property name="text">
+    <string>添加歌曲</string>
+   </property>
+   <property name="toolTip">
+    <string>添加歌曲</string>
+   </property>
+  </action>
+  <action name="actDelete">
+   <property name="text">
+    <string>删除歌曲</string>
+   </property>
+   <property name="toolTip">
+    <string>删除歌曲</string>
+   </property>
+  </action>
+  <action name="actLyrics">
+   <property name="text">
+    <string>导入歌词</string>
+   </property>
+   <property name="toolTip">
+    <string>导入歌词</string>
+   </property>
+  </action>
+  <action name="actPicture">
+   <property name="text">
+    <string>导入海报</string>
+   </property>
+   <property name="toolTip">
+    <string>导入海报</string>
+   </property>
+  </action>
+  <action name="actTop">
+   <property name="text">
+    <string>置顶</string>
+   </property>
+   <property name="toolTip">
+    <string>置顶</string>
+   </property>
+  </action>
+  <action name="actUp">
+   <property name="text">
+    <string>上移</string>
+   </property>
+   <property name="toolTip">
+    <string>上移一格</string>
+   </property>
+  </action>
+  <action name="actDown">
+   <property name="text">
+    <string>下移</string>
+   </property>
+   <property name="toolTip">
+    <string>下移一格</string>
+   </property>
+  </action>
+  <action name="actBottom">
+   <property name="text">
+    <string>置底</string>
+   </property>
+   <property name="toolTip">
+    <string>置底</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

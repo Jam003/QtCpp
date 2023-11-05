@@ -1,0 +1,10 @@
+debug/main.o
+debug/mainwindow.o
+debug/playlist.o
+debug/spectrumwidget.o
+debug/tprocess.o
+debug/qrc_rec.o
+debug/moc_mainwindow.o
+debug/moc_playlist.o
+debug/moc_spectrumwidget.o
+debug/moc_tprocess.o
